@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getData } from '../Redux/action'
 import { useState } from 'react'
 import Pagination from '../Components/Pagination'
-
+// shfk
 export const HomePage = () => {
     const dispatch = useDispatch();
     const { isLoading, isError, emps } = useSelector((store) => store.reducer);
